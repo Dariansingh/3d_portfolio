@@ -1,0 +1,18 @@
+PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm create vite@latest ./ -- --template react
+
+PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm install -D tailwindcss
+
+PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npx tailwindcss init
+
+npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer
+
+
+npx tailwindcss init -p
+
+PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+
+PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm install --legacy-peer-deps three
+
+PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm install three @types/three @react-three/fiber
+
+then "npm run dev"
