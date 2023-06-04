@@ -219,7 +219,7 @@ import {
       ],
       image: moviereview,
       source_code_link: "https://github.com/Dariansingh/14.Movie-Review-Webpage.git",
-    },
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
