@@ -16,3 +16,7 @@ PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm install --legacy-peer-deps 
 PS C:\Users\daria\OneDrive\Desktop\3d_portfolio> npm install three @types/three @react-three/fiber
 
 then "npm run dev"
+
+
+
+for updates to the firebase live website, first make your changes, and then do "yarn build" and after, do "firebase deploy" in the terminal.
