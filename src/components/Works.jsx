@@ -83,6 +83,7 @@ const Works = () => {
           The thrill of problem-solving and the hunger for knowledge are what drive me to keep learning and growing in my field. With every challenge that I overcome, I become more confident and capable in my abilities. And it's not just about building something impressive - it's about the impact that technology can have on people's lives. Whether it's making a process more efficient, connecting people across the world, or solving a real-world problem, technology has the power to make a meaningful difference.
         </motion.p>
       </div>
+      <h1>CLICK ON GITHUB ICON IN THE UPPER RIGHT OF THE CARD</h1>
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
