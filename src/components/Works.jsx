@@ -18,15 +18,16 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+      <Tilt 
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
+        
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div  className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -71,7 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p id='projects' className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -83,7 +84,7 @@ const Works = () => {
           The thrill of problem-solving and the hunger for knowledge are what drive me to keep learning and growing in my field. With every challenge that I overcome, I become more confident and capable in my abilities. And it's not just about building something impressive - it's about the impact that technology can have on people's lives. Whether it's making a process more efficient, connecting people across the world, or solving a real-world problem, technology has the power to make a meaningful difference.
         </motion.p>
       </div>
-      <h1>CLICK ON GITHUB ICON IN THE UPPER RIGHT OF THE CARD</h1>
+      <h1 >CLICK ON GITHUB ICON IN THE UPPER RIGHT OF THE CARD</h1>
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
